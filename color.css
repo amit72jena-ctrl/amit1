@@ -1,0 +1,44 @@
+ body{
+    background: linear-gradient(45deg, #030e12, #000000);
+    font-family: Arial;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.box {
+    background: linear-gradient(to right, purple, pink);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* 🔥 Instagram Button Style */
+.btn {
+    background: linear-gradient(to right, #E1306C, #FD1D1D, #FCAF45);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* 🖼️ Photo Style */
+.pic{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 20px;
+}
